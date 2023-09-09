@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./../images/wooden-board-empty-table-top-blurred-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilo para o container da calculadora */
+.calculadora {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para o título da calculadora */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+/* Estilo para rótulos e entradas de texto */
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Estilo para o botão de cálculo */
+.button-calcular {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+  .button-calcular:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para o botão "Limpar" */
+#clear {
+    background-color: #dc3545; /* Vermelho */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 3px;
+    margin-left: 10px; /* Espaçamento à esquerda para separar do botão "Calcular" */
+  }
+
+#clear:hover {
+    background-color: #c82333; /* Cor mais escura ao passar o mouse */
+}
+  
+/* Estilo para os resultados de gorjeta e total */
+.resultado{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.resultado p{
+    margin: 10px 0;
+}
+
+/* Estilo para os resultados de gorjeta e total em destaque */
+.resultado span{
+    font-weight: bold;
+    color: #007bff;
+}
+
